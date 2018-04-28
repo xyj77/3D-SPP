@@ -4,13 +4,14 @@
 ### Tensor-based data representation
 <div align="center">
 
-<img align="center" width="600" src="https://github.com/xyj77/3D-SPP/raw/master/figures/3DSPP.png">
+<img align="center" width="600" src="https://github.com/xyj77/3D-SPP/raw/master/3DSPP.png">
 
 </div>
 ### To test the spp layers:
 ```shell
 python tests/test_3DSPP.py   # Test 3D SPP
 ```
+
 ```shell
 python tests/test_spp.py     # Test 2D SPP
 ```
