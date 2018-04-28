@@ -1,4 +1,23 @@
-# keras-spp
+# Spatial pyramid pooling layers
+
+## 3D SPP layer
+### Tensor-based data representation
+<div align="center">
+
+<img align="center" width="600" src="https://github.com/xyj77/3D-SPP/raw/master/figures/3DSPP.png">
+
+</div>
+### To test the spp layers:
+```shell
+python tests/test_3DSPP.py   # Test 3D SPP
+```
+```shell
+python tests/test_spp.py     # Test 2D SPP
+```
+
+
+## Oringin 2D SPP
+Forked from from [yhenon/keras-spp](https://github.com/yhenon/keras-spp)
 Spatial pyramid pooling layers for keras, based on https://arxiv.org/abs/1406.4729 . This code requires Keras version 2.0 or greater.
 
 ![spp](http://i.imgur.com/SQWJVoD.png)
